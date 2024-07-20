@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbarr">
+        <div class="saidbar">
+            <!-- Sidebar -->
+            <div class="w3-sidebar w3-bar-block" style="display:none;z-index:5" id="mySidebar">
+                <button class="w3-bar-item w3-button w3-xxlarge" onclick="w3_close()">Close &times;</button>
+                <a class="w3-bar-item w3-button" href="/">Home</a>
+                <a class="w3-bar-item w3-button" href="">Shop</a>
+                <a class="w3-bar-item w3-button" href="http://127.0.0.1:5500/navbar/plant/plant.html">Plant Care</a>
+                <a class="w3-bar-item w3-button" href="http://127.0.0.1:5500/navbar/blogs/blogs.html">Blogs</a>
+            </div>
+
+            <!-- Page Content -->
+            <div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+            <div>
+                <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                </div>
+            </div>
+
+            <script>
+                function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                    document.getElementById("myOverlay").style.display = "block";
+                }
+
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                    document.getElementById("myOverlay").style.display = "none";
+                }
+            </script>
+        </div>
+        <div class="logo">
+            <img src="/navbar/img/Vector.svg" alt="">
+            <img src="/navbar/img/Group.png" alt="">
+        </div>
+        <div class="hamburger-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="nav-menu hide">
+            <a href="/">Home</a>
+            <a href="./shop.html">Shop</a>
+            <a href="#">Plant Care</a>
+            <a href="#">Blogs</a>
+
+        </div>
+
+        <div class="login">
+            <img class="izlovchi" src="/navbar/img/Vectorsearch.svg" alt="">
+            <div class="karzinka">
+
+                <img class="karzinka" src="/navbar/img/Vector (1) karzinka.svg" alt="">
+                <h6>0</h6>
+            </div>
+
+            <button><img src="img/Logout.png" alt="">Login</button>
+        </div>
+    </nav>
+    <div class="barberton">
+        <div class="angla-bar">
+            <div class="image">
+                <img src="img/kaktus.png" alt="">
+            </div>
+            <div class="image">
+                <img src="img/image_2-removebg-preview.png" alt="">
+            </div>
+            <div class="image">
+                <img src="img/savat2.png" alt="">
+            </div>
+            <div class="image">
+                <img src="img/tuvakk.png" alt="">
+            </div>
+        </div>
+
+        <div class="angle">
+            <img src="img/savat1.png" alt="">
+        </div>
+        <div class="narx">
+            <h2>Barberton Daisy</h2>
+            <p>$119.00</p>
+            <hr>
+            <h5>Short Description:</h5>
+            <p>The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The
+                ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. </p>
+            <h6>Size:</h6>
+            <div class="XL">
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+            </div>
+            <div class="buy_now">
+                <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">1</span>
+                    <span class="plus">+</span>
+                  </div>
+                <div class="buttons">
+                    <button>BUY NOW</button>
+                    <button>Add to cart</button>
+                    <button><img src="img/heart 1 (1).png" alt=""></button>
+                </div>
+            </div>
+            <div class="sku">
+                <p>SKU: 1995751877966</p>
+                <p>Categories: Potter Plants</p>
+                <p>Tags: Home, Garden, Plants</p>
+                <div class="imgp">
+                    <p>Share this products:</p>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="shop.js"></script>
+</body>
+
+</html>
