@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger-menu');
     const navMenu = document.querySelector('.nav-menu');
     const karzinka = document.querySelector('.karzinka');
     const shop = document.querySelector('.shop')
+    const shopping = document.querySelector('.shopping')
     
     hamburger.addEventListener('click', () => {
       navMenu.classList.toggle('hide');
@@ -51,6 +52,6 @@ rangeInput.forEach((input) => {
     }
   });
 });
-shop.addEventListener("click", ()=>{
-
+karzinka.addEventListener("click", ()=>{
+shopping.style.transform = 'scale(1)'
 });

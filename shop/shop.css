@@ -165,13 +165,15 @@ body {
     border-radius: 6px;
     transition: all 1s;
 }
+
 .buttons button:nth-child(1):hover {
 
     color: rgb(255, 255, 255);
     border: solid 1px rgb(192, 192, 192);
-   background-color: #46A358;
-   transition: all 1s;
+    background-color: #46A358;
+    transition: all 1s;
 }
+
 .buttons button:nth-child(2) {
     width: 130px;
     height: 40px;
@@ -181,13 +183,15 @@ body {
     border-radius: 6px;
     transition: all 1s;
 }
+
 .buttons button:nth-child(2):hover {
 
     color: rgb(255, 255, 255);
     border: solid 1px rgb(192, 192, 192);
-   background-color: #46A358;
-   transition: all 1s;
+    background-color: #46A358;
+    transition: all 1s;
 }
+
 .buttons button:nth-child(3) {
     width: 40px;
     height: 40px;
@@ -198,10 +202,237 @@ body {
     border-radius: 6px;
     transition: all 1s;
 }
+
 .buttons button:nth-child(3):hover {
     border: solid 1px rgb(192, 192, 192);
-   background-color: #46A358;
-   transition: all 1s;
+    background-color: #46A358;
+    transition: all 1s;
+}
+
+.rewi h2 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+
+.rewi h4 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+
+.rewi {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.praduct h3 {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #3D3D3D;
+
+}
+
+.related{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+@media (max-width: 767px) {
+  .version {
+    transform: scale(0.6) rotate(45deg);
+    right: -100px;
+  }
+}
+
+.garden {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gernsh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.care h3 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+.izlovchi {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.karzinka {
+    display: flex;
+    align-items: center;
+}
+.login {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.west {
+    display: flex;
+    align-items: center;
+}
+.west2 img{
+    width: 20px;
+    height: 20px;
+}
+.west2{
+    display: flex;
+    align-items: center;
+}
+.west1{
+    display: flex;
+    align-items: center;
+}
+.west1 {
+    display: flex;
+}
+
+.west2 {
+    display: flex;
+}
+.accaynts{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.west1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.west img {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.west h2 {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.west1 h2 {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.west2 h2 {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.care p {
+    width: 204px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.care1 h2 {
+    width: 298px;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.care1 p {
+    width: 354px;
+    font-family: Cera Pro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.care1 input {
+    width: 354px;
+    height: 40px;
+    top: 3107px;
+    left: 941px;
+    gap: 0px;
+    border-radius: 6px;
+    border: none;
+    color: #ACACAC;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    border: solid 1px rgb(230, 230, 230);
+    opacity: 0px;
+}
+.XL button{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #3d3d3d00;
+cursor: pointer;
+border: solid 1px black;
+transition: all 0.5s;
+}
+.XL button:hover{
+    border: solid 3px #46A358;
+transition: all 0.5s;
+}
+.care1 button {
+    width: 85px;
+    height: 40px;
+    top: 3107px;
+    left: 1210px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #46A358;
+    border: none;
+    color: #fff;
+
 }
 
 @media only screen and (max-width: 1054px) {

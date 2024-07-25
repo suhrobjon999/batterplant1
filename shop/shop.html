@@ -47,8 +47,8 @@
             </script>
         </div>
         <div class="logo">
-            <img src="./images/Vector (2).png" alt="">
-            <img src="./images/Group (1).png" alt="">
+            <img src="/images/Vector" alt="">
+            <img src="/images/Group (1).png" alt="">
         </div>
         <div class="hamburger-menu">
             <span class="line"></span>
@@ -64,10 +64,10 @@
         </div>
 
         <div class="login">
-            <img class="izlovchi" src="./images/Vector.png" alt="">
+            <img class="izlovchi" src="/images/Vector.png" alt="">
             <div class="karzinka">
 
-                <img class="karzinka" src="./images/Vector (1).png" alt="">
+                <img class="karzinka" src="/images/Vector (1).png" alt="">
                 <h6>0</h6>
             </div>
 
@@ -80,14 +80,15 @@
                 <img src="img/kaktus.png" alt="">
             </div>
             <div class="image">
-                <img src="img/image_2-removebg-preview.png" alt="">
+                <img class="rock myclass" src="img/image_2-removebg-preview.png" alt="">
             </div>
             <div class="image">
-                <img src="img/savat2.png" alt="">
+                <img class="paper myclass" src="img/savat2.png" alt="">
             </div>
             <div class="image">
-                <img src="img/tuvakk.png" alt="">
+                <img class="scissors myclass" src="img/tuvakk.png" alt="">
             </div>
+            <div id="playerbox"></div>
         </div>
 
         <div class="angle">
@@ -112,7 +113,7 @@
                     <span class="minus">-</span>
                     <span class="num">1</span>
                     <span class="plus">+</span>
-                  </div>
+                </div>
                 <div class="buttons">
                     <button>BUY NOW</button>
                     <button>Add to cart</button>
@@ -134,6 +135,304 @@
         </div>
 
 
+    </div>
+    <div class="praduct">
+        <div class="rewi">
+            <h2>Product Description</h2>
+            <h4>Reviews (19)</h4>
+        </div>
+        
+        <p>The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The
+            ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at
+            libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate
+            adipiscing cursus eu, suscipit id nulla.
+
+            Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget
+            velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate,
+            sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio
+            quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in
+            imperdiet ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate your
+            plants off the ground. </p>
+        <h3>Living Room:</h3>
+        <p>The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The
+            ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Dining Room:</h3>
+        <p>The benefits of houseplants are endless. In addition to cleaning the air of harmful toxins, they can help to
+            improve your mood, reduce stress and provide you with better sleep. Fill every room of your home with
+            houseplants and their restorative qualities will improve your life.</p>
+        <h3>Office:</h3>
+        The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic
+        cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit.
+    </div>
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div class="related">
+              <img src="/images/01 3.png">
+              <img src="/images/savat2.png" >
+              <img src="/images/image_8-removebg-5.png" >
+              <img src="/images/image_9-removebg-preview.png">
+              <img src="/images/image_10-removebg-preview.png">
+          </div>
+        
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div class="related">
+            <img src="/images/01 3.png">
+            <img src="/images/savat2.png" >
+            <img src="/images/image_8-removebg-5.png" >
+            <img src="/images/image_9-removebg-preview.png">
+            <img src="/images/image_10-removebg-preview.png">
+        </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <div class="related">
+            <img src="/images/01 3.png">
+            <img src="/images/savat2.png" >
+            <img src="/images/image_8-removebg-5.png" >
+            <img src="/images/image_9-removebg-preview.png">
+            <img src="/images/image_10-removebg-preview.png">
+        </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+      
+      
+      <a class="version" href="https://codepen.io/supah/pen/xxZMdNW" target="_parent"></a>
+      <div class="would">
+        <div class="garden">
+          <div class="care">
+            <div class="boshi">
+              <img src="images/Frame (2).png" alt="">
+            </div>
+            <img src="./images/Frame (1).png" alt="">
+            <h3>Garden Care</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
+          </div>
+          <div class="care">
+            <img src="./images/Group 18.png" alt="">
+            <h3>Garden Care</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
+          </div>
+          <div class="care">
+            <img src="./images/Group 19.png" alt="">
+            <h3>Garden Care</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
+          </div>
+          <div class="care1">
+            <h2>Would you like to join newsletters?</h2>
+            <div class="buttoninput">
+              <input type="text " placeholder="enter your email address...">
+              <button>Join</button>
+            </div>
+            <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We
+              offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!
+            </p>
+
+          </div>
+          
+        </div>
+       <div class="gernsh">
+        <div class="grenlaga">
+          <img src="/images/Vector (2).png" alt="">
+          <img src="/images/Group (1).png" alt="">
+        </div>
+        <div class="west">
+          <img src="/images/Location.png" alt="">
+          <h2>70 West Buckingham Ave. <br>Farmingdale, NY 11735 </h2>
+        </div>
+        <div class="west1">
+          <img src="/images/Message.png" alt="">
+          <h2>contact@greenshop.com</h2>
+        </div>
+        <div class="west2">
+          <img src="/images/Calling.png" alt="">
+          <h2>+88 01911 717 490</h2>
+        </div>
+       </div>
+      </div>
+      <div class="accaynts">
+       <div class="my">
+        <h2>My Account</h2>
+        <p>My Account</p>
+        <p>Our stores</p>
+        <p>Contact us</p>
+        <p>Career</p>
+        <p>Specials</p>
+       </div>
+       <div class="help">
+        <h2>Help & Guide</h2>
+        <p>Help Center</p>
+        <p>How to Buy
+        </p>
+        <p>Shipping & Delivery
+        </p>
+        <p>Product Policy
+        </p>
+        <p>How to Return</p>
+       </div>
+       <div class="Categories">
+        <h2>Categories</h2>
+        <p>House Plants
+        </p>
+        <p>Potter Plants
+        </p>
+        <p>Seeds
+        </p>
+        <p>Small Plants
+        </p>
+        <p>Accessories</p>
+       </div>
+       <div class="Social">
+        <h2>Social Media</h2>
+       </div>
+      </div>
     </div>
     <script src="shop.js"></script>
 </body>

@@ -82,440 +82,528 @@
     </nav>
     </div>
     <div class="carusel">
-    
+
       </head>
 
       <body>
-
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <div class="image-three">
-              <div class="lets">
-                <h2>Welcome to GreenShop</h2>
-                <h1>Let’s Make a
-                  Better Planet</h1>
-                <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
-                  create an unique Urban Jungle. Order your favorite plants!</p>
-                <button>SHOP NOW</button>
-              </div>
-              <div class="lets_img">
-                <img src="./images/2.png" alt="">
-                <img src="./images/01 3.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="image-three">
-              <div class="lets">
-                <h2>Welcome to GreenShop</h2>
-                <h1>Let’s Make a
-                  Better Planet</h1>
-                <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
-                  create an unique Urban Jungle. Order your favorite plants!</p>
-                <button>SHOP NOW</button>
-              </div>
-              <div class="lets_img">
-                <img class="savat" src="./images/savat1.png" alt="">
-                <img src="./images/savat1.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="image-three">
-              <div class="lets">
-                <h2>Welcome to GreenShop</h2>
-                <h1>Let’s Make a
-                  Better Planet</h1>
-                <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
-                  create an unique Urban Jungle. Order your favorite plants!</p>
-                <button>SHOP NOW</button>
-              </div>
-              <div class="lets_img">
-                <img class="savat22" src="./images/savat2.png" alt="">
-                <img src="./images/savat2.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
+        <div class="shopping">
 
         </div>
-        <br>
+        <div class="postion">
 
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
 
-        <script>
-          let slideIndex = 1;
-          showSlides(slideIndex);
+          <div class="slideshow-container">
 
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
-          }
+            <div class="mySlides fade">
+              <div class="image-three">
+                <div class="lets">
+                  <h2>Welcome to GreenShop</h2>
+                  <h1>Let’s Make a
+                    Better Planet</h1>
+                  <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
+                    create an unique Urban Jungle. Order your favorite plants!</p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="lets_img">
+                  <img src="./images/2.png" alt="">
+                  <img src="./images/01 3.png" alt="">
+                </div>
+              </div>
+            </div>
 
-          function currentSlide(n) {
-            showSlides(slideIndex = n);
-          }
+            <div class="mySlides fade">
+              <div class="image-three">
+                <div class="lets">
+                  <h2>Welcome to GreenShop</h2>
+                  <h1>Let’s Make a
+                    Better Planet</h1>
+                  <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
+                    create an unique Urban Jungle. Order your favorite plants!</p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="lets_img">
+                  <img class="savat" src="./images/savat1.png" alt="">
+                  <img src="./images/savat1.png" alt="">
+                </div>
+              </div>
+            </div>
 
-          function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
+            <div class="mySlides fade">
+              <div class="image-three">
+                <div class="lets">
+                  <h2>Welcome to GreenShop</h2>
+                  <h1>Let’s Make a
+                    Better Planet</h1>
+                  <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
+                    create an unique Urban Jungle. Order your favorite plants!</p>
+                  <button>SHOP NOW</button>
+                </div>
+                <div class="lets_img">
+                  <img class="savat22" src="./images/savat2.png" alt="">
+                  <img src="./images/savat2.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
             }
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
             }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-          }
-        </script>
-    </div>
-    <div class="olk">
-      <div class="all">
 
-        <div class="catigories">
-          <h1>Categories</h1>
-          <div class="hause">
-            <h2>House Plants</h2>
-            <p>(33)</p>
-          </div>
-          <div class="hause">
-            <h2>Potter Plants</h2>
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) { slideIndex = 1 }
+              if (n < 1) { slideIndex = slides.length }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+            }
+          </script>
 
-            <p>(12)</p>
-          </div>
-          <div class="hause">
-            <h2>Seeds</h2>
-            <p>(65)</p>
-          </div>
-          <div class="hause">
-            <h2>Small Plants</h2>
-            <p>(39)</p>
-          </div>
-          <div class="hause">
-            <h2>Big Plants</h2>
-            <p>(23)</p>
-          </div>
-          <div class="hause">
-            <h2>Succulents</h2>
-            <p>(17)</p>
-          </div>
-          <div class="hause">
-            <h2>Trerrariums</h2>
-            <p>(19)</p>
-          </div>
-          <div class="hause">
-            <h2>Gardening</h2>
-            <p>(13)</p>
-          </div>
-          <div class="hause">
-            <h2>Accessories</h2>
-            <p>(18)</p>
-          </div>
+          <div class="olk">
+            <div class="all">
 
-          <div class="price_range">
-            <h3>Price Range</h3>
-            <!-- price -->
+              <div class="catigories">
+                <h1>Categories</h1>
+                <div class="hause">
+                  <h2>House Plants</h2>
+                  <p>(33)</p>
+                </div>
+                <div class="hause">
+                  <h2>Potter Plants</h2>
+
+                  <p>(12)</p>
+                </div>
+                <div class="hause">
+                  <h2>Seeds</h2>
+                  <p>(65)</p>
+                </div>
+                <div class="hause">
+                  <h2>Small Plants</h2>
+                  <p>(39)</p>
+                </div>
+                <div class="hause">
+                  <h2>Big Plants</h2>
+                  <p>(23)</p>
+                </div>
+                <div class="hause">
+                  <h2>Succulents</h2>
+                  <p>(17)</p>
+                </div>
+                <div class="hause">
+                  <h2>Trerrariums</h2>
+                  <p>(19)</p>
+                </div>
+                <div class="hause">
+                  <h2>Gardening</h2>
+                  <p>(13)</p>
+                </div>
+                <div class="hause">
+                  <h2>Accessories</h2>
+                  <p>(18)</p>
+                </div>
+
+                <div class="price_range">
+                  <h3>Price Range</h3>
+                  <!-- price -->
 
 
-            <div class="d-flex">
-              <div class="wrapper">
-                <header>
-                  <h2>Price Range</h2>
-                  <p>Use slider or enter min and max price</p>
-                </header>
-                <div class="price-input">
-                  <div class="field">
-                    <span>price:</span>
-                    <input type="number" class="input-min" value="2500">
+                  <div class="d-flex">
+                    <div class="wrapper">
+                      <header>
+                        <h2>Price Range</h2>
+                        <p>Use slider or enter min and max price</p>
+                      </header>
+                      <div class="price-input">
+                        <div class="field">
+                          <span>price:</span>
+                          <input type="number" class="input-min" value="2500">
+                        </div>
+                        <div class="separator"></div>
+                        <div class="field">
+                          <input type="number" class="input-max" value="7500">
+                        </div>
+                      </div>
+                      <div class="slider">
+                        <div class="progress"></div>
+                      </div>
+                      <div class="range-input">
+                        <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                        <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                      </div>
+                    </div>
+
+                    <!--   Support Section -->
+                    <div class="support-box">
+
+                      <a class="b-btn" target="blank" href="https://www.buymeacoffee.com/danishlaeeq">
+                        &nbsp;<i class="fa fa-coffee"></i>&nbsp;&nbsp;Buy Me a Coffee
+                      </a>
+                      &nbsp;&nbsp;-&nbsp;&nbsp;
+                      <a class="b-btn paypal" target="_blank" href="https://www.paypal.com/paypalme/danishlaiq">
+                        <i class="fab fa-paypal"></i>
+                        Donate</a>
+                      </br></br>
+                    </div>
                   </div>
-                  <div class="separator"></div>
-                  <div class="field">
-                    <input type="number" class="input-max" value="7500">
+                </div>
+                <div class="filtr">
+                  <button>Filter</button>
+                </div>
+              </div>
+
+              <div class="size">
+                <div class="small">
+                  <h5>Small</h5>
+                  <p>(119)</p>
+                </div>
+                <div class="small">
+                  <h5>Medium</h5>
+                  <p>(86)</p>
+                </div>
+                <div class="small">
+                  <h5>Large</h5>
+                  <p>(78)</p>
+                </div>
+                <img src="./images/Super Sale Banner.png" alt="">
+              </div>
+            </div>
+
+
+
+            <div class="all_pants">
+              <div class="newarrcle">
+                <div class="new">
+                  <div class="all_navbar">
+                    <ul class="linkss">
+                      <div class="uy">
+                        <a href="">All Plants</a>
+                      </div>
+                      <a href="">New Arrivals</a>
+                      <a href="">Sale</a>
+                    </ul>
+                  </div>
+                  <div class="daisy">
+
+
+                    <div class="custom-select" style="width:200px;">
+                      <h6>Short by:</h6>
+                      <select class="sa">
+                        <option value="0">Default sorting</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                      </select>
+                    </div>
+                    <div class="img">
+
+                    </div>
                   </div>
                 </div>
-                <div class="slider">
-                  <div class="progress"></div>
+                <div class="newarrcle_img">
+                  <div class="berber">
+                    <div class="berberton">
+                      <div class="images_baribor">
+
+                        <img src="./images/shop.png" alt="">
+                        <img class="like" src="./images/like.png" alt="">
+
+                        <a href="http://127.0.0.1:5500/navbar/shop/shop.html"> <img src="./images/lupa.png" alt=""></a>
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton1">
+                      <div class="images_baribor">
+
+                        <img class="shop" src="./images/shop.png" alt="">
+
+                        <img src="./images/like.png" alt="">
+
+                        <a href="http://127.0.0.1:5500/navbar/shop/angale.html"><img src="./images/lupa.png" alt=""></a>
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton2">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="range-input">
-                  <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
-                  <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                <div class="newarrcle_img1">
+                  <div class="berber">
+                    <div class="berberton3">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton4">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton5">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="newarrcle_img3">
+                  <div class="berber">
+                    <div class="berberton6">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton7">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
+                  <div class="berber">
+                    <div class="berberton8">
+                      <div class="images_baribor">
+                        <img src="./images/shop.png" alt="">
+                        <img src="./images/like.png" alt="">
+                        <img src="./images/lupa.png" alt="">
+                      </div>
+                      <h2>Barberton Daisy</h2>
+                      <p>$119.00</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <!--   Support Section -->
-              <div class="support-box">
-
-                <a class="b-btn" target="blank" href="https://www.buymeacoffee.com/danishlaeeq">
-                  &nbsp;<i class="fa fa-coffee"></i>&nbsp;&nbsp;Buy Me a Coffee
-                </a>
-                &nbsp;&nbsp;-&nbsp;&nbsp;
-                <a class="b-btn paypal" target="_blank" href="https://www.paypal.com/paypalme/danishlaiq">
-                  <i class="fab fa-paypal"></i>
-                  Donate</a>
-                </br></br>
+              <div class="number">
+                <div class="num1">1</div>
+                <div class="num2">2</div>
+                <div class="num3">3</div>
+                <div class="num4">4</div>
+                <div class="num4">></div>
               </div>
             </div>
           </div>
-          <div class="filtr">
-            <button>Filter</button>
-          </div>
-        </div>
+          <div class="summer">
+            <div class="cactus">
+              <div class="imagescactus">
+                <img src="./images/image_7-removebg-preview.png" alt="">
+              </div>
+              <div class="fins">
+                <h2>Summer cactus <br>
+                  & succulents</h2>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                <button>Find More ></button>
+              </div>
 
-        <div class="size">
-          <div class="small">
-            <h5>Small</h5>
-            <p>(119)</p>
-          </div>
-          <div class="small">
-            <h5>Medium</h5>
-            <p>(86)</p>
-          </div>
-          <div class="small">
-            <h5>Large</h5>
-            <p>(78)</p>
-          </div>
-          <img src="./images/Super Sale Banner.png" alt="">
-        </div>
-      </div>
-
-
-
-      <div class="all_pants">
-        <div class="newarrcle">
-          <div class="new">
-            <div class="all_navbar">
-              <ul class="linkss">
-                <div class="uy">
-                  <a href="">All Plants</a>
-                </div>
-                <a href="">New Arrivals</a>
-                <a href="">Sale</a>
-              </ul>
             </div>
-            <div class="daisy">
-
-
-              <div class="custom-select" style="width:200px;">
-                <h6>Short by:</h6>
-                <select class="sa">
-                  <option value="0">Default sorting</option>
-                  <option value="1">Audi</option>
-                  <option value="2">BMW</option>
-                  <option value="3">Citroen</option>
-                </select>
+            <div class="trends">
+              <div class="iomageafico">
+                <img src="./images/image_2-removebg-preview.png" alt="">
               </div>
-              <div class="img">
-
+              <div class="find">
+                <h2>Styling Trends <br>
+                  & much more</h2>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                <button>Find More ></button>
               </div>
+
             </div>
           </div>
-          <div class="newarrcle_img">
-            <div class="berber">
-              <div class="berberton">
-                <div class="images_baribor">
-
-                  <img src="./images/shop.png" alt="">
-                  <img class="like" src="./images/like.png" alt="">
-
-                  <a href="http://127.0.0.1:5500/navbar/shop/shop.html"> <img src="./images/lupa.png" alt=""></a>
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
+          <div class="our">
+            <h3>Our Blog Posts</h3>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants. </p>
+            <div class="castus">
+              <div class="succalent">
+                <img src="./images/01.png" alt="">
+                <h4>September 12 I Read in 6 minutes</h4>
+                <h5>Cactus & Succulent <br>
+                  Care Tips</h5>
+                <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
+                <a href="">Read More ></a>
               </div>
-            </div>
-            <div class="berber">
-              <div class="berberton1">
-                <div class="images_baribor">
-                  
-                  <img class="shop" src="./images/shop.png"alt="">
-
-                  <img src="./images/like.png" alt="">
-                  
-                  <a href="http://127.0.0.1:5500/navbar/shop/angale.html"><img src="./images/lupa.png" alt=""></a>
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
+              <div class="succalent">
+                <img src="./images/02.png" alt="">
+                <h4>September 12 I Read in 6 minutes</h4>
+                <h5>Cactus & Succulent <br>
+                  Care Tips</h5>
+                <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
+                <a href="">Read More ></a>
               </div>
-            </div>
-            <div class="berber">
-              <div class="berberton2">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
+              <div class="succalent">
+                <img src="./images/03.png" alt="">
+                <h4>September 12 I Read in 6 minutes</h4>
+                <h5>Cactus & Succulent <br>
+                  Care Tips</h5>
+                <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
+                <a href="">Read More ></a>
+              </div>
+              <div class="succalent">
+                <img src="./images/01.png" alt="">
+                <h4>September 12 I Read in 6 minutes</h4>
+                <h5>Cactus & Succulent <br>
+                  Care Tips</h5>
+                <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
+                <a href="">Read More ></a>
               </div>
             </div>
           </div>
-          <div class="newarrcle_img1">
-            <div class="berber">
-              <div class="berberton3">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
+          <div class="would">
+            <div class="garden">
+              <div class="care">
+                <div class="boshi">
+                  <img src="images/Frame (2).png" alt="">
                 </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
+                <img src="./images/Frame (1).png" alt="">
+                <h3>Garden Care</h3>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
               </div>
-            </div>
-            <div class="berber">
-              <div class="berberton4">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
+              <div class="care">
+                <img src="./images/Group 18.png" alt="">
+                <h3>Garden Care</h3>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
+              </div>
+              <div class="care">
+                <img src="./images/Group 19.png" alt="">
+                <h3>Garden Care</h3>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+
+              </div>
+              <div class="care1">
+                <h2>Would you like to join newsletters?</h2>
+                <div class="buttoninput">
+                  <input type="text " placeholder="enter your email address...">
+                  <button>Join</button>
                 </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
+                <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We
+                  offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!
+                </p>
+
               </div>
+              
             </div>
-            <div class="berber">
-              <div class="berberton5">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
-              </div>
+           <div class="gernsh">
+            <div class="grenlaga">
+              <img src="images/Vector (2).png" alt="">
+              <img src="images/Group (1).png" alt="">
             </div>
+            <div class="west">
+              <img src="images/Location.png" alt="">
+              <h2>70 West Buckingham Ave. <br>Farmingdale, NY 11735 </h2>
+            </div>
+            <div class="west1">
+              <img src="images/Message.png" alt="">
+              <h2>contact@greenshop.com</h2>
+            </div>
+            <div class="west2">
+              <img src="images/Calling.png" alt="">
+              <h2>+88 01911 717 490</h2>
+            </div>
+           </div>
           </div>
-
-          <div class="newarrcle_img3">
-            <div class="berber">
-              <div class="berberton6">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
-              </div>
-            </div>
-            <div class="berber">
-              <div class="berberton7">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
-              </div>
-            </div>
-            <div class="berber">
-              <div class="berberton8">
-                <div class="images_baribor">
-                  <img src="./images/shop.png" alt="">
-                  <img src="./images/like.png" alt="">
-                  <img src="./images/lupa.png" alt="">
-                </div>
-                <h2>Barberton Daisy</h2>
-                <p>$119.00</p>
-              </div>
-            </div>
+          <div class="accaynts">
+           <div class="my">
+            <h2>My Account</h2>
+            <p>My Account</p>
+            <p>Our stores</p>
+            <p>Contact us</p>
+            <p>Career</p>
+            <p>Specials</p>
+           </div>
+           <div class="help">
+            <h2>Help & Guide</h2>
+            <p>Help Center</p>
+            <p>How to Buy
+            </p>
+            <p>Shipping & Delivery
+            </p>
+            <p>Product Policy
+            </p>
+            <p>How to Return</p>
+           </div>
+           <div class="Categories">
+            <h2>Categories</h2>
+            <p>House Plants
+            </p>
+            <p>Potter Plants
+            </p>
+            <p>Seeds
+            </p>
+            <p>Small Plants
+            </p>
+            <p>Accessories</p>
+           </div>
+           <div class="Social">
+            <h2>Social Media</h2>
+           </div>
           </div>
         </div>
-        <div class="number">
-          <div class="num1">1</div>
-          <div class="num2">2</div>
-          <div class="num3">3</div>
-          <div class="num4">4</div>
-          <div class="num4">></div>
-        </div>
-      </div>
-    </div>
-    <div class="summer">
-      <div class="cactus">
-        <div class="imagescactus">
-          <img src="./images/image_7-removebg-preview.png" alt="">
-        </div>
-        <div class="fins">
-          <h2>Summer cactus <br>
-            & succulents</h2>
-          <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
-          <button>Find More ></button>
-        </div>
-
-      </div>
-      <div class="trends">
-        <div class="iomageafico">
-          <img src="./images/image_2-removebg-preview.png" alt="">
-        </div>
-        <div class="find">
-          <h2>Styling Trends <br>
-            & much more</h2>
-          <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
-          <button>Find More ></button>
-        </div>
-
-      </div>
-    </div>
-    <div class="our">
-      <h3>Our Blog Posts</h3>
-      <p>We are an online plant shop offering a wide range of cheap and trendy plants. </p>
-      <div class="castus">
-        <div class="succalent">
-          <img src="./images/01.png" alt="">
-          <h4>September 12 I Read in 6 minutes</h4>
-          <h5>Cactus & Succulent <br>
-            Care Tips</h5>
-          <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
-          <a href="">Read More ></a>
-        </div>
-        <div class="succalent">
-          <img src="./images/02.png" alt="">
-          <h4>September 12 I Read in 6 minutes</h4>
-          <h5>Cactus & Succulent <br>
-            Care Tips</h5>
-          <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
-          <a href="">Read More ></a>
-        </div>
-        <div class="succalent">
-          <img src="./images/03.png" alt="">
-          <h4>September 12 I Read in 6 minutes</h4>
-          <h5>Cactus & Succulent <br>
-            Care Tips</h5>
-          <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
-          <a href="">Read More ></a>
-        </div>
-        <div class="succalent">
-          <img src="./images/01.png" alt="">
-          <h4>September 12 I Read in 6 minutes</h4>
-          <h5>Cactus & Succulent <br>
-            Care Tips</h5>
-          <h6>Cacti are succulents are easy care plants for any home or patio. </h6>
-          <a href="">Read More ></a>
-        </div>
-      </div>
-    </div>
-    <div class="would">
-      <div class="garden">
-        <div class="care">
-          <img src="./images/Group.png" alt="">
-          <img src="./images/Frame (1).png" alt="">
-        </div>
-      </div>
-    </div>
-    </div>
-    <script src="app.js"></script>
-  </body>
+        <script src="app.js"></script>
+      </body>
 
 </html>
