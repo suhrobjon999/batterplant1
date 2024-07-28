@@ -209,290 +209,202 @@ body {
     transition: all 1s;
 }
 
-.rewi h2 {
-    font-family: Cera Pro;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 16px;
-    text-align: left;
-}
-
-.rewi h4 {
-    font-family: Cera Pro;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 16px;
-    text-align: left;
-}
-
-.rewi {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.praduct h3 {
-    font-family: Cera Pro;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: left;
-    color: #3D3D3D;
-
-}
-
-.related{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-@media (max-width: 767px) {
-  .version {
-    transform: scale(0.6) rotate(45deg);
-    right: -100px;
-  }
-}
-
-.garden {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.gernsh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
-    margin-top: 50px;
-}
-
-.care h3 {
-    font-family: Cera Pro;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 16px;
-    text-align: left;
-    color: #3D3D3D;
-}
 .izlovchi {
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
+
 .karzinka {
     display: flex;
     align-items: center;
 }
+
 .login {
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
 }
-.west {
-    display: flex;
-    align-items: center;
+
+.accaunt li {
+    list-style: none;
 }
-.west2 img{
+
+.adres img {
     width: 20px;
     height: 20px;
 }
-.west2{
+
+.inputs {
     display: flex;
-    align-items: center;
-}
-.west1{
-    display: flex;
-    align-items: center;
-}
-.west1 {
-    display: flex;
+    gap: 80px;
 }
 
-.west2 {
+.my {
     display: flex;
-}
-.accaynts{
-    display: flex;
+    gap: 150px;
     justify-content: center;
-    gap: 180px;
-}
-.west1 img {
-    width: 20px;
-    height: 20px;
+    margin-top: 50px;
 }
 
-.west img {
-    width: 20px;
+.inputs input {
+    width: 417px;
+    height: 40px;
+}
+
+.inputs h4 {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.shipping {
     display: flex;
     align-items: center;
-    height: 20px;
+    justify-content: center;
+    gap: 550px;
 }
 
-.west h2 {
-    font-family: Cera Pro;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: #3D3D3D;
+.btttons button {
+    width: 131px;
+    height: 40px;
+    top: 1117px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0px;
+    background: #46A358;
+    margin-top: 50px
 }
 
-.west1 h2 {
+.adres a {
     font-family: Cera Pro;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: #3D3D3D;
-}
-
-.west2 h2 {
-    font-family: Cera Pro;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: #3D3D3D;
-}
-
-.care p {
-    width: 204px;
-    font-family: Cera Pro;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
+    line-height: 45px;
     color: #727272;
+    text-decoration: none;
+    transition: all 0.5s;
 }
 
-.care1 h2 {
-    width: 298px;
+.adres a:hover {
+    color: #46A358;
+
+}
+
+.adres {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.accaunt {
+    margin-top: 100px;
+
+}
+
+.number {
+    width: 70px;
+    height: 45px;
+}
+
+.num input {
+    width: 50px;
+}
+
+.accaunt h2 {
     font-family: Cera Pro;
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
+    color: #3D3D3D;
+}
+
+.billing h2 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 16px;
     text-align: left;
     color: #3D3D3D;
 }
 
-.care1 p {
-    width: 354px;
+.billing h3 {
     font-family: Cera Pro;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 15px;
     text-align: left;
     color: #727272;
+
 }
 
-.care1 input {
-    width: 354px;
+.fristnamee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fristnamee img {
+    width: 20px;
+    height: 20px;
+}
+
+.fristnamee button {
+    width: 98px;
     height: 40px;
-    top: 3107px;
-    left: 941px;
-    gap: 0px;
-    border-radius: 6px;
-    border: none;
-    color: #ACACAC;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0);
+    border: solid 1px #46A358;
     font-family: Cera Pro;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
-    border: solid 1px rgb(230, 230, 230);
-    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.5s;
 }
-.XL button{
-width: 50px;
-height: 50px;
-border-radius: 50%;
-background-color: #3d3d3d00;
-cursor: pointer;
-border: solid 1px black;
-transition: all 0.5s;
-}
-.XL button:hover{
-    border: solid 3px #46A358;
-transition: all 0.5s;
-}
-.care1 button {
-    width: 85px;
-    height: 40px;
-    top: 3107px;
-    left: 1210px;
-    gap: 0px;
-    border-radius: 6px;
-    opacity: 0px;
-    background: #46A358;
-    border: none;
+.fristnamee button:hover{
+    background-color: #46A358;
     color: #fff;
-
+}
+.ship h5 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
 }
 
-
-
-@media only screen and (max-width: 1054px) {
-    .navbarr {
-        gap: 50px;
-    }
+.ship p {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #727272;
 }
 
-@media only screen and (max-width: 1285px) {
-    .navbarr {
-        gap: 100px;
-    }
-}
+.chekbox {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
 
-@media only screen and (max-width: 1017px) {
-    .navbarr {
-        gap: 70px;
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    .navbarr {
-        gap: 50px;
-    }
-
-    .saidbar {
-        display: block;
-    }
-
-    .nav-menu {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 841px) {
-    .navbarr {
-        gap: 50px;
-    }
-}
-
-@media only screen and (max-width: 580px) {
-    .navbarr {
-        gap: 10px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .login {
-        gap: 1px;
-    }
-
-    .login button {
-        width: 50px;
-        gap: 1px;
-        font-size: 10px;
-    }
-
-    .login button img {
-        width: 20px;
-    }
 }

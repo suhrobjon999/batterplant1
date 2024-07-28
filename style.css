@@ -92,13 +92,83 @@ body {
     position: relative;
     z-index: 1;
     display: flex;
-    justify-content: center;
     margin: 0 auto;
     transform: scale(0);
     transition: all 1s;
 
 }
-
+.closee{
+margin-left: 470px;
+cursor: pointer;
+transition: all 0.5s;
+color: #fff;
+}
+.closee:hover{
+    color: red;
+}
+.imgs1 img{
+width: 150px;
+height: 150px;
+}
+.imgss2 img{
+width: 150px;
+height: 150px;
+}
+.imgss3 img{
+width: 150px;
+height: 150px;
+}
+.imgss4 img{
+width: 150px;
+height: 150px;
+}
+.imgss5 img{
+width: 150px;
+height: 150px;
+}
+.imgss6 img{
+width: 150px;
+height: 150px;
+}
+.imgss7 img{
+width: 150px;
+height: 150px;
+}
+.imgss8 img{
+width: 150px;
+height: 150px;
+}
+.imgss9 img{
+width: 150px;
+height: 150px;
+}
+.imgs1{
+display: none;
+}
+.imgss2{
+display: none;
+}
+.imgss3{
+display: none;
+}
+.imgss4{
+display: none;
+}
+.imgss5{
+display: none;
+}
+.imgss6{
+display: none;
+}
+.imgss7{
+display: none;
+}
+.imgss8{
+display: none;
+}
+.imgss9{
+display: none;
+}
 .postion {
     margin-top: -700px;
 }
@@ -111,7 +181,33 @@ body {
 .mySlides {
     display: none
 }
-
+.shops1{
+cursor: pointer;
+}
+.shops2{
+cursor: pointer;
+}
+.shops3{
+cursor: pointer;
+}
+.shops4{
+cursor: pointer;
+}
+.shops5{
+cursor: pointer;
+}
+.shops6{
+cursor: pointer;
+}
+.shops7{
+cursor: pointer;
+}
+.shops8{
+cursor: pointer;
+}
+.shops:hover{
+    background-color: #1900ff1c;
+}
 img {
     vertical-align: middle;
 }
@@ -1135,3 +1231,10 @@ input[type="range"]::-moz-range-thumb {
         width: 20px;
     }
 }
+
+
+
+
+
+
+/* /// */

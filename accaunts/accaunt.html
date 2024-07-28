@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbarr">
+        <div class="saidbar">
+            <!-- Sidebar -->
+            <div class="w3-sidebar w3-bar-block" style="display:none;z-index:5" id="mySidebar">
+                <button class="w3-bar-item w3-button w3-xxlarge" onclick="w3_close()">Close &times;</button>
+                <a class="w3-bar-item w3-button" href="/">Home</a>
+                <a class="w3-bar-item w3-button" href="../shop/shop.html">Shop</a>
+                <a class="w3-bar-item w3-button" href="../plant/plant.html">Plant Care</a>
+                <a class="w3-bar-item w3-button" href="../blogs/blogs.html">Blogs</a>
+                <link rel="stylesheet" href="accaunt.css">
+            </div>
+
+            <!-- Page Content -->
+            <div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+            <div>
+                <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                </div>
+            </div>
+
+            <script>
+                function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                    document.getElementById("myOverlay").style.display = "block";
+                }
+
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                    document.getElementById("myOverlay").style.display = "none";
+                }
+            </script>
+        </div>
+        <div class="logo">
+            <img src="/images/Vector (2).png" alt="">
+            <img src="/images/Group (1).png" alt="">
+        </div>
+        <div class="hamburger-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="nav-menu hide">
+            <a href="/">Home</a>
+            <a href="/shop/shop.html">Shop</a>
+            <a href="#">Plant Care</a>
+            <a href="#">Blogs</a>
+
+        </div>
+
+        <div class="login">
+            <img class="izlovchi" src="/images/Vector.png" alt="">
+            <div class="karzinka">
+
+                <img class="karzinka" src="/images/Vector (1).png" alt="">
+                <h6>0</h6>
+            </div>
+
+            <button><img src="/images/Logout.png" alt=""><a
+                    href="http://127.0.0.1:5500/accaunts/accaunt.html">Login</a></button>
+        </div>
+    </nav>
+    <div class="my">
+        <div class="accaunt">
+            <h2>My Account</h2>
+            <li class="adres"><img src="/images/accaunt.png" alt=""><a
+                    href="http://127.0.0.1:5500/accaunts/accaunt.html"> Account Details</a></li>
+            <li class="adres"><img src="/images/Location.png" alt=""><a
+                    href="http://127.0.0.1:5500/accaunts/adres.html">Address</a> </li>
+            <li class="adres"><img src="/images/shopping 1.png" alt=""><a href=""> Orders</a></li>
+            <li class="adres"><img src="/images/heart 1.png" alt=""><a href=""> Wishlist</a></li>
+            <li class="adres"><img src="/images/Activity.png" alt=""><a href="">Reports</a> </li>
+            <li class="adres"><img src="/images/Download.png" alt=""><a href="">Downloads</a> </li>
+            <li class="adres"><img src="/images/Danger Triangle.png" alt=""><a href="">Support</a> </li>
+        </div>
+        <div class="billing">
+
+       <h2>Personal Information</h2>
+        <div class="inputs">
+            <div class="fristname">
+                <h4>First Name</h4>
+                <input type="text" name="search" placeholder="Search..">
+            </div>
+            <div class="fristname">
+                <h4>Last Name</h4>
+                <input type="text">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="fristname">
+                <h4>Email address</h4>
+                <input type="text" name="search" placeholder="Search..">
+            </div>
+            <div class="fristname">
+                <h4>Phone Number</h4>
+                <select class="number">
+                    <option value="0">+996</option>
+                    <option value="1">+998</option>
+                    <option value="2">+1</option>
+                    <option value="3">+988</option>
+                    <option value="4">+997</option>
+                    <option value="5">+995</option>
+                  </select>
+                <input  type="number">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="fristname">
+                <h4>Username</h4>
+                <input type="text" name="search" placeholder="Search..">
+            </div>
+            <div class="fristnamee">
+              <img src="/images/Image 2@2x.png" alt="">
+              <button>Change</button>
+              <button>Remove</button>
+            </div>
+        </div>
+        <h6>Personal Information </h6>
+        <div class="inputs">
+         
+            <div class="fristname">
+                <h4>Current password</h4>
+              <input type="password">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="fristname">
+                <h4>New password</h4>
+                <input type="password">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="fristname">
+                <h4>Confirm new password</h4>
+                <input type="password">
+            </div>
+        </div>
+        <div class="buttoning">
+            <button></button>
+        </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
